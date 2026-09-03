@@ -89,6 +89,7 @@ Dannenberg(1984)와 Dixon(2005)의 스코어 팔로잉 논문을 읽고 온셋 �
 - **로보틱스 스터디** — OpenManipulator-X, PyBullet 시뮬레이션과 해석적 역기구학
 - **[운영체제 과제](https://github.com/nounmoumn/korea-os-assignments)** — C
 - **[INTHON 2025](https://github.com/nounmoumn/inthon-7-backend)** — 해커톤 백엔드
+- **[AWS × 강원대·고려대 Agentic AI 심화 몰입캠프](https://github.com/nxtcloud-edu/2026_KNUxKU_summer_camp_team01)** — AI 여행 플래너(JustGO), 프론트-에이전트 계약(SSE 스트리밍) 설계 참여
 
 ---
 
