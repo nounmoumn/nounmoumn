@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:2563eb&height=160&section=header&text=Sungjin%20Lim&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Korea%20University%20%C2%B7%20AI%20%26%20Robotics&descAlignY=58&descSize=16" width="100%" />
+
+</div>
+
 ## 임성진 · Sungjin Lim
 
 고려대학교 정보대학 인공지능학과 · 2학년
@@ -5,7 +11,24 @@
 웹 서비스, Rust 데스크톱 에이전트, C++ 실시간 오디오, 로봇 팔 제어까지 여러 층위를 직접 만들어 보고 있습니다.
 넓게 다녀 본 덕분에 이것들이 결국 **관측하고, 상태를 추정하고, 정해진 시간 안에 응답하는 같은 문제**라는 걸 알게 됐고, 지금은 그 자리를 더 파고 있습니다.
 
-`C` `C++` `Rust` `Python` `TypeScript` `Dart` `C#`
+<div align="center">
+
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+
+</div>
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=nounmoumn&show_icons=true&hide_border=true&count_private=true&theme=default" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nounmoumn&layout=compact&hide_border=true&theme=default" />
+
+</div>
 
 ---
 
@@ -44,6 +67,15 @@
 외로움과 사회적 고립을 겪는 사람을 **실제 인간관계로 이어 주는 것**을 목표로 한 플랫폼입니다.
 챗봇에 대한 정서적 의존을 늘리는 기존 AI 컴패니언 모델에 의도적으로 반대하는 설계를 택했습니다.
 감정 안정 → 동기 회복 → 안전한 대인 교류 → 실제 사회 복귀의 단계를 설계했습니다.
+
+---
+
+#### [나작교](https://github.com/nounmoumn/inthon-7-backend) · 실시간 강의 Q&A 지원 시스템
+> 2025 · INTHON 해커톤 · 2인 팀 · **커밋 13**
+> `Django` `WebSocket` `Google Generative AI`
+
+교수와 학생 간 실시간 상호작용을 돕는 강의 지원 서비스입니다. 학생들이 "이해했어요/어려워요"로 이해도를 즉시 표현하면 웹소켓으로 교수에게 전달되고, 질문은 Google Generative AI가 명료하게 다듬어 줍니다.
+**Django 백엔드**를 담당했습니다.
 
 ---
 
@@ -86,7 +118,6 @@ Dannenberg(1984)와 Dixon(2005)의 스코어 팔로잉 논문을 읽고 온셋 �
 - **L-ZERO 학회 RTL 트랙** — 반도체 설계 학회의 디지털 회로(RTL) 스터디. Chisel과 Rocket-chip으로 RISC-V 코어 구조를 분석합니다.
 - **로보틱스 스터디** — OpenManipulator-X 로봇 팔을 PyBullet으로 시뮬레이션하고, 펜 끝 좌표로 관절각을 구하는 해석적 역기구학을 직접 유도·구현했습니다.
 - **[고려대 운영체제 과제](https://github.com/nounmoumn/korea-os-assignments)** — 수업 과제로 C 스케줄러와 시스템 콜을 직접 구현했습니다.
-- **[INTHON 2025 해커톤 — 나작교](https://github.com/nounmoumn/inthon-7-backend)** — 실시간 강의 Q&A 지원 시스템. 학생 이해도 피드백과 질문을 웹소켓으로 교수에게 전달하고, Google Generative AI로 질문을 다듬어 주는 서비스입니다. Django 백엔드를 담당했습니다.
 - **[AWS × 강원대·고려대 Agentic AI 심화 몰입캠프](https://github.com/nxtcloud-edu/2026_KNUxKU_summer_camp_team01)** — 도시와 날짜만 정하면 AI 에이전트가 일정을 짜 주는 여행 플래너(JustGO). 프론트엔드-에이전트 간 SSE 스트리밍 계약 설계에 참여했습니다.
 
 ---
@@ -96,3 +127,9 @@ Dannenberg(1984)와 Dixon(2005)의 스코어 팔로잉 논문을 읽고 온셋 �
 - 스코어 팔로잉 구현 정리 및 Dixon 논문 실험 재현 — 감으로 맞췄던 파라미터를 근거를 대고 다시 잡는 중
 - OpenManipulator-X 실기체로 펜 궤적 과제 마무리
 - 공학수학 수강 중 / 다음 학기 신호및시스템 · 디지털신호처리 예정
+
+<div align="center">
+
+![Profile views](https://komarev.com/ghpvc/?username=nounmoumn&color=2563eb&style=flat-square&label=Views)
+
+</div>
