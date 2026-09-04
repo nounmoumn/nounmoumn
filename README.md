@@ -81,13 +81,13 @@ Dannenberg(1984)와 Dixon(2005)의 스코어 팔로잉 논문을 읽고 온셋 �
 
 ### 그 외
 
-- **KAIST 몰입캠프 2026 여름** — 4주 과정 전체 수료 (웹 / Rust / Unity / C++)
-- **AWS** — Building Agentic AI with Amazon Bedrock AgentCore, AWS Technical Essentials 수료
-- **L-ZERO 학회 RTL 트랙** — Chisel · Rocket-chip 기반 RISC-V 코어 스터디
-- **로보틱스 스터디** — OpenManipulator-X, PyBullet 시뮬레이션과 해석적 역기구학
-- **[운영체제 과제](https://github.com/nounmoumn/korea-os-assignments)** — C
-- **[INTHON 2025](https://github.com/nounmoumn/inthon-7-backend)** — 해커톤 백엔드
-- **[AWS × 강원대·고려대 Agentic AI 심화 몰입캠프](https://github.com/nxtcloud-edu/2026_KNUxKU_summer_camp_team01)** — AI 여행 플래너(JustGO), 프론트-에이전트 계약(SSE 스트리밍) 설계 참여
+- **KAIST 몰입캠프 2026 여름** — 대학생 대상 4주 집중 개발 캠프. 웹 / Rust / Unity / C++ 네 프로젝트 전 과정을 완주했습니다.
+- **AWS 자격 수료** — Building Agentic AI with Amazon Bedrock AgentCore(480분), AWS Technical Essentials
+- **L-ZERO 학회 RTL 트랙** — 반도체 설계 학회의 디지털 회로(RTL) 스터디. Chisel과 Rocket-chip으로 RISC-V 코어 구조를 분석합니다.
+- **로보틱스 스터디** — OpenManipulator-X 로봇 팔을 PyBullet으로 시뮬레이션하고, 펜 끝 좌표로 관절각을 구하는 해석적 역기구학을 직접 유도·구현했습니다.
+- **[고려대 운영체제 과제](https://github.com/nounmoumn/korea-os-assignments)** — 수업 과제로 C 스케줄러와 시스템 콜을 직접 구현했습니다.
+- **[INTHON 2025 해커톤 — 나작교](https://github.com/nounmoumn/inthon-7-backend)** — 실시간 강의 Q&A 지원 시스템. 학생 이해도 피드백과 질문을 웹소켓으로 교수에게 전달하고, Google Generative AI로 질문을 다듬어 주는 서비스입니다. Django 백엔드를 담당했습니다.
+- **[AWS × 강원대·고려대 Agentic AI 심화 몰입캠프](https://github.com/nxtcloud-edu/2026_KNUxKU_summer_camp_team01)** — 도시와 날짜만 정하면 AI 에이전트가 일정을 짜 주는 여행 플래너(JustGO). 프론트엔드-에이전트 간 SSE 스트리밍 계약 설계에 참여했습니다.
 
 ---
 
