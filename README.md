@@ -62,7 +62,7 @@
 
 ---
 
-#### [Inclusion](https://github.com/nounmoumn/inclusion-guitar-vocal) · 실시간 기타-보컬 앱
+#### [Gitaru](https://github.com/nounmoumn/gitaru) · 실시간 기타-보컬 앱
 > 2026 여름 · 2인 팀 · **커밋 47**
 > `C++` `JUCE` `WORLD` `SoundTouch`
 
