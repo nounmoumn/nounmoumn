@@ -23,13 +23,6 @@
 
 </div>
 
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=nounmoumn&show_icons=true&hide_border=true&count_private=true&theme=default" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nounmoumn&layout=compact&hide_border=true&theme=default" />
-
-</div>
-
 ---
 
 ### 프로젝트
