@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:2563eb&height=160&section=header&text=Sungjin%20Lim&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Korea%20University%20%C2%B7%20AI%20%26%20Robotics&descAlignY=58&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:2563eb&height=160&section=header&text=Sungjin%20Lim&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Korea%20University%20-%20AI%20and%20Robotics&descAlignY=58&descSize=16" width="100%" />
 
 </div>
 
