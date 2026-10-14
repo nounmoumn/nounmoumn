@@ -9,6 +9,7 @@
 고려대학교 정보대학 인공지능학과 · 2학년
 
 웹 서비스, Rust 데스크톱 에이전트, C++ 실시간 오디오, 로봇 팔 제어까지 여러 층위를 직접 만들어 보고 있습니다.
+요즘은 데이터를 들여다보고 실험으로 확인하는 ML 작업에도 시간을 쓰고 있습니다.
 
 
 <div align="center">
@@ -22,6 +23,26 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 
 </div>
+
+---
+
+### 데이터 · ML 실험
+
+#### 이미지 회귀 · 목초지 바이오매스 예측
+> 2026 2학기 · 데이터과학 수업 팀 프로젝트 · Kaggle CSIRO Image2Biomass
+> `PyTorch` `EfficientNet` `Kaggle`
+
+입력 방식 실험과 오차 분석을 맡았습니다. 가로로 긴 사진을 정사각형으로 눌러 넣던 베이스라인에서 종횡비 유지, 고해상도(gradient accumulation), 좌우 분할(backbone 공유 dual-stream), 보조 타깃 head를 직접 구현해 seed 3개씩 비교했습니다.
+사진 비율만 지켜도 OOF R²가 0.768 → 0.788로 올랐고, 나머지는 효과가 없거나 비용만 컸습니다. 팀원들과 검증셋의 날짜·지역 중복(누수)도 확인했습니다.
+
+---
+
+#### [Score Following · 위치 점프 판단 실험](https://github.com/nounmoumn/score-following-study)
+> 2026.08 – 09 · 개인 연구 · **현재 중단**
+> `Python` `NumPy` `librosa`
+
+기존 실시간 악보 추적기가 위치를 크게 옮길 때 바로 믿을지 2초 보류할지를 예측하는 ridge 회귀 판단기를 얹어 봤습니다.
+처음 보는 MIDI 곡에서는 판단 정확도가 71% → 83%로 올랐지만, 실제 오디오 녹음에서는 일반화에 실패했습니다. 실패 원인까지 정리해 두었습니다.
 
 ---
 
@@ -39,16 +60,17 @@
 
 #### [CATchME](https://github.com/nounmoumn/catchme-cat-map) · 3D 지도 고양이 도감
 > 2026 여름 · 2인 팀 · **커밋 100** · [**데모 ↗**](https://catchme-rosy.vercel.app)
-> `JavaScript` `Three.js` `OAuth` `Vercel`
+> `JavaScript` `Three.js` `OAuth` `Vercel` `YOLO` `MegaDescriptor`
 
 캠퍼스에서 만난 고양이를 사진과 위치로 기록해 나만의 도감을 채우는 3D 지도 웹 서비스입니다.
 **백엔드와 3D 모델링**을 맡아 기획부터 배포까지 마무리했습니다.
+사진이 올라오면 YOLO로 고양이를 찾아 잘라내고, 동물 재식별 모델(MegaDescriptor) 임베딩의 코사인 유사도로 이미 등록된 고양이인지 판별하는 비전 서비스도 만들었습니다.
 
 ---
 
 #### [SMIM 2.0](https://github.com/nounmoumn/smim-diary) · AI 그림일기 앱
 > 2026 상반기 · **커밋 18** · [**데모 ↗**](https://smim-4fc74.web.app)
-> `Flutter` `FastAPI` `PostgreSQL` `Cloud Run` `Gemma 3 (온디바이스)`
+> `Flutter` `FastAPI` `PostgreSQL` `Cloud Run` `Gemma 3n (온디바이스)`
 
 하루의 순간을 조각으로 모으면 사진의 GPS로 지도 일기를 그리고, AI가 그날의 조각을 분석해 수채화·픽셀아트 그림일기를 만들어 줍니다.
 **온디바이스 모델과 이미지 생성 API를 실제 서비스에 통합**하고 클라우드에 배포했습니다.
@@ -89,11 +111,12 @@
 
 #### [Gitaru](https://github.com/nounmoumn/gitaru) · 실시간 기타-보컬 앱
 > 2026 여름 · 2인 팀 · **커밋 47**
-> `C++` `JUCE` `WORLD` `SoundTouch`
+> `C++` `JUCE` `WORLD` `SoundTouch` `RVC`
 
 기타를 치면 보컬이 따라 나오고, 내가 부르면 기타 음정에 맞춰 목소리를 실시간 보정해 주는 데스크톱 앱입니다.
 Dannenberg(1984)와 Dixon(2005)의 스코어 팔로잉 논문을 읽고 온셋 검출 · 크로마 기반 위치 추적 · 피치 시프팅을 구현했습니다.
 체감 지연 **150ms** 목표로 구간별 지연 예산을 나눠 관리하고, 피치 시프터 3종을 동일 녹음으로 A/B 비교해 근거를 남긴 뒤 채택했습니다.
+보컬을 사용자 목소리로 바꾸기 위해 zero-shot 방식(Seed-VC)과 비교한 뒤, 약 3분 녹음으로 RVC를 학습시키는 재학습 파이프라인을 만들었습니다.
 
 ---
 
@@ -119,7 +142,8 @@ Dannenberg(1984)와 Dixon(2005)의 스코어 팔로잉 논문을 읽고 온셋 �
 
 ### 지금 하는 것
 
-- 스코어 팔로잉 구현 정리 및 Dixon 논문 실험 재현 — 감으로 맞췄던 파라미터를 근거를 대고 다시 잡는 중
+- 데이터과학 수업 팀 프로젝트(Kaggle) 최종 보고서 마무리
+- AI 교육 사업단 — 고등학생용 AI 수업에 쓸 실측 데이터 선정과 사전 실험
 - OpenManipulator-X 실기체로 펜 궤적 과제 마무리
 - 공학수학 수강 중 / 다음 학기 신호및시스템 · 디지털신호처리 예정
 
