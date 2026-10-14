@@ -125,7 +125,6 @@ Gitaru에서 남은 반복 구간 문제를 이어서 파고든 개인 연구입
 - **L-ZERO 학회 RTL 트랙** — 반도체 설계 학회의 디지털 회로(RTL) 스터디. Chisel과 Rocket-chip으로 RISC-V 코어 구조를 분석합니다.
 - **로보틱스 스터디** — OpenManipulator-X 로봇 팔을 PyBullet으로 시뮬레이션하고, 펜 끝 좌표로 관절각을 구하는 해석적 역기구학을 직접 유도·구현했습니다.
 - **데이터과학 수업 팀 프로젝트 (Kaggle CSIRO Image2Biomass)** — 목초지 사진으로 바이오매스를 예측하는 문제에서 입력 방식 실험과 오차 분석을 맡았습니다. 종횡비 유지, 고해상도, backbone 공유 dual-stream, 보조 타깃 head를 PyTorch로 구현해 비교했습니다.
-- **[고려대 운영체제 과제](https://github.com/nounmoumn/korea-os-assignments)** — 수업 과제로 C 스케줄러와 시스템 콜을 직접 구현했습니다.
 - **[AWS × 강원대·고려대 Agentic AI 심화 몰입캠프](https://github.com/nxtcloud-edu/2026_KNUxKU_summer_camp_team01)** — 도시와 날짜만 정하면 AI 에이전트가 일정을 짜 주는 여행 플래너(JustGO). 프론트엔드-에이전트 간 SSE 스트리밍 계약 설계에 참여했습니다.
 
 ---
